@@ -21,7 +21,7 @@ class TextExample extends StatelessWidget {
           "Colores",
           style: TextStyle(
             color: Colors.blueAccent,
-            backgroundColor: const Color.fromARGB(77, 255, 155, 233),
+            backgroundColor: Color.fromARGB(77, 255, 155, 233),
             fontSize: 30,
             decoration: TextDecoration.lineThrough,
             decorationColor: Colors.lightGreen,
