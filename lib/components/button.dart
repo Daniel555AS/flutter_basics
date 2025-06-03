@@ -12,13 +12,13 @@ class ButtonExample extends StatelessWidget {
           onPressed: () {
             print("Botón Presionado");
           },
-          child: Text("Iniciar Sesión"),
           onLongPress: () {
             print("Presionadoooooo");
           },
           style: ButtonStyle(
             backgroundColor: WidgetStateProperty.all(Colors.blueGrey),
           ),
+          child: Text("Iniciar Sesión"),
         ),
         Spacer(),
         OutlinedButton(onPressed: () {}, child: Text("OutlinedButton")),
